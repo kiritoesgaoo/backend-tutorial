@@ -1,0 +1,30 @@
+{
+  "name": "backend_tutorial",
+  "version": "1.0.0",
+  "description": "backend tutorial",
+  "homepage": "https://github.com/kiritoesgaoo/backend-tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/kiritoesgaoo/backend-tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiritoesgaoo/backend-tutorial.git"
+  },
+  "author": "Tarun Yadav",
+  "license": "ISC",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
